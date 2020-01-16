@@ -1,0 +1,258 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query since this is the default in Bootstrap */
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+  
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+  .fixed-header-active .header-main.header-mobile-open{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    max-height: 100%;
+    background: #213b4f;
+    z-index: 9;
+  }
+  
+
+.site-header-classic.header-brand-left .extras{
+  margin-left: auto;
+}
+
+
+
+.site-header-classic.header-brand-left .navigator,
+.header-mobile-open .site-header .header-brand,
+.header-mobile-open  .site-header-classic.header-brand-left .extras,
+.site-header-classic.header-brand-left .nav-info
+{
+  display: none;
+}
+
+.header-mobile-open .site-header{
+  animation-name: slideDown;
+	-webkit-animation-name: slideDown;	
+	animation-duration: 0.3s;	
+	-webkit-animation-duration: 0.3s;
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;	
+}
+
+.header-mobile-open .header-main .navigator {
+  display: flex;
+  margin-top: 0;
+  padding: 40px 0;
+  overflow: auto;
+  max-height: 100vh;
+}
+
+.navbar-toggler {
+  display: block;
+}
+
+.header-mobile-open .site-header-classic.header-brand-left .header-content {
+  align-items: flex-start;
+}
+
+.header-mobile-open{
+  overflow: hidden;
+}
+
+
+.header-mobile-open .site-header {
+  background: #203a4e;
+  height: 100vh;
+}
+
+
+.site-header-classic .navigator .menu-primary {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+}
+
+.site-header .navigator > .menu > li a {
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  color: #d2d2d2;
+  text-align: left;
+}
+
+
+.slider-content-inner h3.text-shadow {
+  font-size: 14px;
+}
+
+.slider-content-inner .cd-words-wrapper b {
+  font-size: 20px;
+}
+
+
+.slider-content-inner .cd-headline.slide span {
+  display: inline-block;
+  padding: 0em 0;
+}
+
+.slider-content-inner h5 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.des-content {
+  display: block;
+}
+
+.about-columns {
+  margin: 0;
+}
+
+
+.about-top-section {
+  padding: 40px 0;
+}
+
+.about-columns .about-col {
+  flex-basis: 50%;
+  margin-bottom: 25px;
+}
+
+.aboout-bottom-section {
+  padding: 40px 10px;
+  text-align: center;
+}
+
+.imagebox .box-header {
+  padding: 15px 10px;
+}
+
+.imagebox .box-header .box-title {
+  font-size: 14px;
+}
+
+.des-title h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+
+.service-box {
+  padding: 0 10px;
+    flex-basis: 50%;
+    width: 50%;
+}
+
+.service-box-inner .service-icon img {
+  width: 55px;
+  margin: 0 auto;
+}
+
+.service-box-inner h4 {
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+}
+
+.service-box-inner {
+  padding: 25px 10px;
+  margin-bottom: 20px;
+}
+
+.features-box {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.getstarted-section{
+  padding-top: 0;
+}
+
+
+.choose-box {
+  padding: 10px;
+}
+
+.choose-box p.text {
+  margin: 0;
+  font-size: 14px;
+}
+
+.choose-box .choose-icon img {
+  width: 35px;
+}
+
+.whychoose-content {
+  margin-bottom: 40px;
+}
+
+ .footer-top .d-flex.align-items-center {
+  justify-content: flex-start !important;
+  margin-bottom: 20px;
+}
+.footer-top .d-flex.align-items-center:last-child {
+  margin-bottom: 0;
+}
+
+.mob-center {
+  text-align: center !important;
+}
+
+
+.page-header {
+  text-align: center;
+}
+.page-header-ul {
+  margin: 0;
+  padding: 0;
+  float: none;
+}
+
+.nav-pills .nav-link {
+    padding: 14px 10px;
+}
+
+.ul-style2 li {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+}
+
+@media (min-width: 992px) { 
+  
+ 
+  
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+  .site-header-classic.header-brand-left .extras{
+    display: none;
+  }
+  .slider-content-inner {
+    width: 100%;
+}
+
+.about-columns .about-col {
+  flex-basis:100%;
+  margin-bottom: 25px;
+}
+
+ }
