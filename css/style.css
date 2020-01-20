@@ -95,6 +95,7 @@ a:hover{
 .site-header-classic.header-brand-left .navigator {
     flex-grow: 1;
     padding: 0 5%;
+    max-width: 800px;
 }
 
 .site-header-classic .navigator {
