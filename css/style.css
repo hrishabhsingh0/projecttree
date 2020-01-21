@@ -1135,7 +1135,7 @@ section.aboutus-page-section {
 
 .ul-style2 li:before {
   content: '';
-  background-image: url(../images/icons/success.svg);
+  background-image: url(../images/icons/success.png);
   background-size: contain;
   display: block;
   position: absolute;
@@ -1289,4 +1289,8 @@ p.email-message {
 
 section.contactus-form {
   padding-top: 50px;
+}
+
+section.contactus-form {
+  display: none;
 }
